@@ -32,16 +32,36 @@ body{
     display: inline-block;
 
 }
-#main-content{
+#main-header{
     padding-left: 25px;
     font-family: 'Bitter', serif;
+    width:60%;
+     background-color: black;
 }
 #links{
     text-decoration: none;
-    
+    color: white;
+}
+#links:hover{
+    color:green;
 }
 #original-nav{
-    height: 20px;
-    width:100%;
-    background-color: black;
+    height: 50px;
+    width:300px;  
+}
+#main-content{
+    padding-left: 25px;
+    width:60%;
+}
+#aboutme{
+    font-size:20px;
+    font-family: 'Pacifico', cursive;
+}
+footer{
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: black;
+   text-align: center;
 }
