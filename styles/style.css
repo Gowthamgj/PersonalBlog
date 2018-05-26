@@ -1,0 +1,47 @@
+body{
+   
+   background: url("../images/background.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#main-container{
+    margin-left:25%;
+    
+}
+#username{
+    padding-left: 20px;
+    font-family: 'IM Fell French Canon SC', serif;
+    font-size: 50px;
+    text-shadow: 2px 2px red;
+}
+#userimage{
+    float: right;
+    border-radius: 100%;
+}
+#dummyhead{
+    height: 10%;
+}
+#describeuser{
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: 'Bitter', serif;
+}
+#userhead{
+    display: inline-block;
+
+}
+#main-content{
+    padding-left: 25px;
+    font-family: 'Bitter', serif;
+}
+#links{
+    text-decoration: none;
+    
+}
+#original-nav{
+    height: 20px;
+    width:100%;
+    background-color: black;
+}
