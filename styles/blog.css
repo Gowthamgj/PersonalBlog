@@ -1,68 +1,30 @@
 body{
-   
-   background: url("../images/background.jpg") no-repeat center center fixed; 
+    background: url("../images/background.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-#main-container{
-    margin-left:25%;
-    
+#homeicon{
+    margin: 20px;
+    height: 50px;
+    width: 50px; 
+    font-size: 30px; 
 }
-#username{
-    padding-left: 20px;
-    font-family: 'IM Fell French Canon SC', serif;
-    font-size: 50px;
-    text-shadow: 2px 2px red;
-}
-#userimage{
-    float: right;
-    border-radius: 50%;
-}
-#dummyhead{
-    height: 10%;
-}
-#describeuser{
-    padding-left: 20px;
-    font-size: 20px;
-    font-family: 'Bitter', serif;
-}
-#userhead{
-    display: inline-block;
+#concepttitle{
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 30px;
 
 }
-#main-header{
-    padding-left: 25px;
-    font-family: 'Bitter', serif;
-    width:60%;
-     background-color: black;
+#blogcontent{
+    margin-top: 20px;
+   margin-left: 42%;
+   display: inline-block;
 }
-#links{
-    text-decoration: none;
-    color: white;
-}
-#links:hover{
-    color:green;
-}
-#original-nav{
-    height: 50px;
-    width:300px;  
-}
-#main-content{
-    padding-left: 25px;
-    width:60%;
-}
-#aboutme{
-    font-size:20px;
-    font-family: 'Pacifico', cursive;
-}
-footer{
-    position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   color: black;
+#list{
+    list-style-type: disc;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 20px;
 }
 .fa {
     font-size: 30px;
@@ -114,4 +76,12 @@ footer{
     font-size: 40px;
      width:50px;
      height: 50px;
+  }
+  footer{
+      position: relative;
+      margin-top: 15%;
+      
+  }
+  #kohli{
+      display: inline;
   }

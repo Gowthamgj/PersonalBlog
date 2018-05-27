@@ -1,0 +1,96 @@
+body{
+    background: url("../images/background.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+div.gallery {
+    margin: 5px;
+    border-spacing: 20px;
+    display: table;
+    float: left;
+    width: 200px;
+}
+
+div.gallery:hover {
+    border: 2px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+
+}
+.fa{
+    font-size: 50px;
+    height: 50px;
+    width: 50px;
+}
+#home{
+    margin: 20px;
+    height: 50px;
+    width: 50px;
+}
+#sec{
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+#concept{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;       
+}
+#face{
+    padding-left: 50px;
+}
+#copyright{
+    padding-left: 25%;
+}
+#facebook {
+  background: #3B5998;
+  color: white;
+}
+
+#twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+#google {
+  background: #dd4b39;
+  color: white;
+}
+
+#linkedin {
+  background: #007bb5;
+  color: white;
+}
+#instagram {
+  background: #125688;
+  color: white;
+} 
+#github {
+  background: #a4c639;
+  color: white;
+}
+.fa:hover{
+  font-size: 40px;
+   width:50px;
+   height: 50px;
+}
+.fa {
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    margin-right: 40px;
+    border-radius:25%;
+    text-align: center;
+    transition: width 1s height 1s font-size 1s;
+  }
